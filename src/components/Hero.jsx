@@ -36,7 +36,7 @@ export default function Hero() {
       spread: 60,
       origin: { y: 0.6 }
     });
-    alert('Đang tạo và tải bản PDF hồ sơ năng lực của Alex Minh Khang (Mocked CV Download)!');
+    alert('Đang tải bản PDF Hồ sơ năng lực của Đỗ Đăng Khoa (Sinh viên Nuôi trồng Thủy sản CTC - Cà Mau)!');
   };
 
   return (
@@ -171,7 +171,7 @@ export default function Hero() {
                 <div className="flex items-center gap-4">
                   <div className="relative">
                     <img
-                      src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80"
+                      src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=300&q=80"
                       alt={personalInfo.fullName}
                       className="w-20 h-20 rounded-2xl object-cover ring-2 ring-blue-500/40 shadow-md"
                     />
@@ -184,17 +184,17 @@ export default function Hero() {
                       {personalInfo.fullName}
                     </h3>
                     <p className="text-sm text-blue-600 dark:text-blue-400 font-medium">
-                      Ex-Tech Lead @ TechNova
+                      Sinh viên Nuôi trồng Thủy sản
                     </p>
                     <p className="text-xs text-slate-500 dark:text-slate-400">
-                      Bách Khoa TP.HCM (HCMUT) Alum
+                      CĐ Kinh tế - Kỹ thuật Cần Thơ (CTC) • Quê Cà Mau
                     </p>
                   </div>
                 </div>
 
                 {/* Tech Pills Floating Tag Bar */}
                 <div className="flex flex-wrap gap-1.5 pt-1">
-                  {['React 19', 'TypeScript', 'Next.js', 'FastAPI', 'AWS EKS', 'Agentic AI', 'Kafka'].map((tech) => (
+                  {['Tôm sú Cà Mau', 'Tôm thẻ thâm canh', 'Vi sinh Probiotics', 'IoT Cảm biến', 'Hệ thống RAS', 'Quản lý nước ao'].map((tech) => (
                     <span
                       key={tech}
                       className="px-2.5 py-1 text-xs font-medium rounded-md bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200/80 dark:border-slate-700/60"
@@ -209,37 +209,37 @@ export default function Hero() {
                   <div className="p-3.5 rounded-xl bg-gradient-to-br from-blue-50/70 to-indigo-50/40 dark:from-blue-950/30 dark:to-indigo-950/20 border border-blue-100 dark:border-blue-900/40">
                     <div className="flex items-center gap-2 text-blue-600 dark:text-blue-400 mb-1">
                       <Briefcase size={16} />
-                      <span className="text-xs font-semibold">Kinh nghiệm</span>
+                      <span className="text-xs font-semibold">Điểm rèn luyện/GPA</span>
                     </div>
-                    <div className="text-2xl font-extrabold text-slate-900 dark:text-white">8+ Năm</div>
-                    <div className="text-[11px] text-slate-500 dark:text-slate-400">Fullstack & Architecture</div>
+                    <div className="text-2xl font-extrabold text-slate-900 dark:text-white">3.86/4.0</div>
+                    <div className="text-[11px] text-slate-500 dark:text-slate-400">Xếp loại Xuất sắc</div>
                   </div>
 
                   <div className="p-3.5 rounded-xl bg-gradient-to-br from-purple-50/70 to-pink-50/40 dark:from-purple-950/30 dark:to-pink-950/20 border border-purple-100 dark:border-purple-900/40">
                     <div className="flex items-center gap-2 text-purple-600 dark:text-purple-400 mb-1">
                       <CheckCircle2 size={16} />
-                      <span className="text-xs font-semibold">Dự án hoàn tất</span>
+                      <span className="text-xs font-semibold">Đề tài & Mô hình</span>
                     </div>
-                    <div className="text-2xl font-extrabold text-slate-900 dark:text-white">54+</div>
-                    <div className="text-[11px] text-slate-500 dark:text-slate-400">SaaS, Enterprise & Open Source</div>
+                    <div className="text-2xl font-extrabold text-slate-900 dark:text-white">8+</div>
+                    <div className="text-[11px] text-slate-500 dark:text-slate-400">Nghiên cứu &amp; Thử nghiệm</div>
                   </div>
 
                   <div className="p-3.5 rounded-xl bg-gradient-to-br from-emerald-50/70 to-teal-50/40 dark:from-emerald-950/30 dark:to-teal-950/20 border border-emerald-100 dark:border-emerald-900/40">
                     <div className="flex items-center gap-2 text-emerald-600 dark:text-emerald-400 mb-1">
                       <Users size={16} />
-                      <span className="text-xs font-semibold">Active Users</span>
+                      <span className="text-xs font-semibold">Hộ nuôi hỗ trợ</span>
                     </div>
-                    <div className="text-2xl font-extrabold text-slate-900 dark:text-white">1.8M+</div>
-                    <div className="text-[11px] text-slate-500 dark:text-slate-400">Trên các hệ thống xây dựng</div>
+                    <div className="text-2xl font-extrabold text-slate-900 dark:text-white">45+ Hộ</div>
+                    <div className="text-[11px] text-slate-500 dark:text-slate-400">Tại Năm Căn &amp; Đầm Dơi</div>
                   </div>
 
                   <div className="p-3.5 rounded-xl bg-gradient-to-br from-amber-50/70 to-orange-50/40 dark:from-amber-950/30 dark:to-orange-950/20 border border-amber-100 dark:border-amber-900/40">
                     <div className="flex items-center gap-2 text-amber-600 dark:text-amber-400 mb-1">
                       <Zap size={16} />
-                      <span className="text-xs font-semibold">Hạ tầng SLA</span>
+                      <span className="text-xs font-semibold">Giờ thực địa ao</span>
                     </div>
-                    <div className="text-2xl font-extrabold text-slate-900 dark:text-white">99.99%</div>
-                    <div className="text-[11px] text-slate-500 dark:text-slate-400">Zero Critical Downtime</div>
+                    <div className="text-2xl font-extrabold text-slate-900 dark:text-white">1,200+</div>
+                    <div className="text-[11px] text-slate-500 dark:text-slate-400">Kinh nghiệm thực tiễn</div>
                   </div>
                 </div>
 

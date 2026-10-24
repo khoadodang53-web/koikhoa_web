@@ -40,7 +40,7 @@ export default function Contact({ onShowToast }) {
         origin: { y: 0.6 }
       });
       if (onShowToast) {
-        onShowToast('Cảm ơn bạn! Tin nhắn đã được gửi thành công. Alex sẽ phản hồi trong vòng 24 giờ làm việc.');
+        onShowToast('Cảm ơn bạn! Tin nhắn đã được gửi thành công. Đăng Khoa sẽ phản hồi trong vòng 24 giờ làm việc.');
       }
       setFormData({
         name: '',
@@ -187,35 +187,35 @@ export default function Contact({ onShowToast }) {
                   {/* Service needed */}
                   <div className="space-y-2">
                     <label className="text-xs font-bold uppercase tracking-wider text-slate-700 dark:text-slate-300">
-                      Dịch vụ quan tâm
+                      Mục đích liên hệ / Hợp tác
                     </label>
                     <select
                       value={formData.service}
                       onChange={(e) => setFormData({ ...formData, service: e.target.value })}
                       className="w-full px-4 py-3 rounded-xl bg-slate-50 dark:bg-slate-700/60 border border-slate-200 dark:border-slate-600 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm transition-all"
                     >
-                      <option value="fullstack-dev">Phát triển Fullstack Web App (React / Node / Go)</option>
-                      <option value="ai-integration">Tích hợp AI / LLM / Agentic Workflow</option>
-                      <option value="system-architecture">Tư vấn Kiến trúc Hệ thống & Cloud AWS</option>
-                      <option value="performance-audit">Audit Hiệu năng & Tối ưu tải cao</option>
-                      <option value="other">Dự án & Hợp tác khác</option>
+                      <option value="thuy-san-sinh-thai">Tư vấn Kỹ thuật Nuôi tôm - Rừng & Quản lý nước</option>
+                      <option value="vi-sinh-probiotics">Hướng dẫn tự ủ Chế phẩm Vi sinh Bản địa</option>
+                      <option value="iot-aquasense">Thử nghiệm & Triển khai Trạm phao Cảm biến IoT</option>
+                      <option value="co-hoi-viec-lam">Cơ hội Thực tập / Tuyển dụng Kỹ thuật viên</option>
+                      <option value="other">Giao lưu & Hợp tác Nông nghiệp khác</option>
                     </select>
                   </div>
 
                   {/* Budget bracket */}
                   <div className="space-y-2">
                     <label className="text-xs font-bold uppercase tracking-wider text-slate-700 dark:text-slate-300">
-                      Ngân sách dự kiến
+                      Quy mô diện tích / Đơn vị
                     </label>
                     <select
                       value={formData.budget}
                       onChange={(e) => setFormData({ ...formData, budget: e.target.value })}
                       className="w-full px-4 py-3 rounded-xl bg-slate-50 dark:bg-slate-700/60 border border-slate-200 dark:border-slate-600 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm transition-all"
                     >
-                      <option value="1k-2k">$1,000 - $2,000 (Dự án nhỏ / MVP)</option>
-                      <option value="2k-5k">$2,000 - $5,000 (Tiêu chuẩn doanh nghiệp)</option>
-                      <option value="5k-15k">$5,000 - $15,000 (Hệ sinh thái lớn)</option>
-                      <option value="over-15k">&gt; $15,000 (Dài hạn / Retainer tư vấn)</option>
+                      <option value="ho-gia-dinh">Hộ gia đình (&lt; 2 hecta)</option>
+                      <option value="trang-trai-vua">Trang trại vừa (2 - 10 hecta)</option>
+                      <option value="hop-tac-xa">Hợp tác xã / Doanh nghiệp (&gt; 10 hecta)</option>
+                      <option value="vien-truong">Viện nghiên cứu / Trường đại học / Khác</option>
                     </select>
                   </div>
                 </div>

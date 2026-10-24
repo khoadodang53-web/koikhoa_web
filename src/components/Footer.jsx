@@ -18,7 +18,7 @@ export default function Footer() {
           <div className="md:col-span-5 space-y-4">
             <div className="flex items-center gap-2.5">
               <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-blue-600 to-purple-600 flex items-center justify-center text-white font-extrabold text-base shadow-md">
-                AK
+                DK
               </div>
               <span className="font-extrabold text-slate-900 dark:text-white text-lg">
                 {personalInfo.fullName}
@@ -28,7 +28,7 @@ export default function Footer() {
               {personalInfo.tagline}
             </p>
             <div className="text-xs text-slate-600 dark:text-slate-300">
-              Kiến trúc sư phần mềm • AI Product Engineer • TP.HCM & Singapore
+              Sinh viên Nuôi trồng Thủy sản • CĐ Kinh tế - Kỹ thuật Cần Thơ • Quê Cà Mau
             </div>
           </div>
 
@@ -97,7 +97,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs">
           <p className="text-slate-500 dark:text-slate-400 flex items-center gap-1">
-            © {new Date().getFullYear()} Alex Minh Khang. Kiến tạo với <Heart size={14} className="text-rose-500 fill-rose-500 inline" /> &amp; Clean Code.
+            © {new Date().getFullYear()} Đỗ Đăng Khoa. Nuôi trồng Thủy sản CĐ Kinh tế - Kỹ thuật Cần Thơ.
           </p>
 
           <button

@@ -51,17 +51,17 @@ export default function Navbar({ darkMode, setDarkMode }) {
             <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-blue-600 via-indigo-600 to-purple-600 p-[2px] shadow-lg shadow-blue-500/25 group-hover:scale-105 transition-transform duration-300">
               <div className="w-full h-full bg-white dark:bg-slate-950 rounded-[10px] flex items-center justify-center">
                 <span className="font-extrabold text-transparent bg-clip-text bg-gradient-to-tr from-blue-600 to-purple-600 text-lg">
-                  AK
+                  DK
                 </span>
               </div>
             </div>
             <div className="flex flex-col">
               <span className="font-bold text-slate-900 dark:text-white text-base leading-tight tracking-tight group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
-                Alex Minh Khang
+                Đỗ Đăng Khoa
               </span>
               <span className="text-xs text-blue-600 dark:text-blue-400 font-medium flex items-center gap-1">
                 <span className="inline-block w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
-                Fullstack & AI Architect
+                Thủy sản CTC • Cà Mau
               </span>
             </div>
           </a>

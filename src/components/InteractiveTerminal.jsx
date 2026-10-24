@@ -5,8 +5,8 @@ import confetti from 'canvas-confetti';
 
 export default function InteractiveTerminal() {
   const [history, setHistory] = useState([
-    { type: 'system', text: 'Chào mừng bạn đến với Alex Minh Khang CLI (v2.4.0)!' },
-    { type: 'system', text: 'Gõ "help" hoặc click vào các lệnh gợi ý bên dưới để bắt đầu tương tác.' }
+    { type: 'system', text: 'Chào mừng bạn đến với Đỗ Đăng Khoa CLI (AquaTech v2.4.0)!' },
+    { type: 'system', text: 'Gõ "help" hoặc click vào các lệnh gợi ý bên dưới để khám phá hồ sơ năng lực thủy sản.' }
   ]);
   const [inputVal, setInputVal] = useState('');
   const bottomRef = useRef(null);
@@ -40,9 +40,9 @@ export default function InteractiveTerminal() {
         newHistory.push({
           type: 'output',
           text: `Họ tên: ${personalInfo.fullName}
-Chức danh: ${personalInfo.role}
-Địa điểm: ${personalInfo.location}
-Kinh nghiệm: 8+ năm tại TechNova, FinEdge, Bách Khoa HCMUT.
+Chuyên ngành: Sinh viên Nuôi trồng Thủy sản - CĐ Kinh tế - Kỹ thuật Cần Thơ (CTC)
+Quê quán: Huyện Đầm Dơi, Tỉnh Cà Mau
+Mục tiêu: Đưa khoa học kỹ thuật và chuyển đổi số về vuông tôm miền Tây
 Bio: "${personalInfo.shortBio}"`
         });
         break;
@@ -50,10 +50,10 @@ Bio: "${personalInfo.shortBio}"`
       case 'skills':
         newHistory.push({
           type: 'output',
-          text: `Frontend : React 19, TypeScript, Next.js, Tailwind CSS, Zustand
-Backend  : Node.js, Go (Golang), Python FastAPI, PostgreSQL, Redis
-AI & Cloud: OpenAI/Claude API, LangChain, Pinecone, AWS EKS, Docker, K8s
-Architecture: Microservices, High Concurrency, Clean Architecture`
+          text: `Kỹ thuật Thủy sản : Tôm sú sinh thái Năm Căn, Tôm thẻ thâm canh, Cá lăng nha
+Môi trường Nước   : Kiểm soát pH, Độ mặn, DO, Kiềm, Ủ vi sinh bản địa Probiotics
+Công nghệ & Số hóa: Trạm phao IoT ESP32, Sổ tay ao nuôi Web App, Zalo Bot cảnh báo
+Chứng nhận        : VietGAP Thủy sản, Kỹ thuật xét nghiệm mẫu nước & bệnh học PCR`
         });
         break;
 
@@ -149,7 +149,7 @@ Rất hân hạnh được đồng hành và kiến tạo dự án đột phá c
               <span className="w-3 h-3 rounded-full bg-rose-500 inline-block"></span>
               <span className="w-3 h-3 rounded-full bg-amber-500 inline-block"></span>
               <span className="w-3 h-3 rounded-full bg-emerald-500 inline-block"></span>
-              <span className="text-xs text-slate-400 ml-2 font-sans font-medium">alex@minhkhang-station:~ (zsh)</span>
+              <span className="text-xs text-slate-400 ml-2 font-sans font-medium">dangkhoa@thuy-san-cantho:~ (zsh)</span>
             </div>
             <div className="flex items-center gap-1.5 text-xs text-slate-400">
               <TerminalIcon size={14} className="text-emerald-400" />
@@ -195,7 +195,7 @@ Rất hân hạnh được đồng hành và kiến tạo dự án đột phá c
 
             {/* Input Prompt */}
             <div className="flex items-center gap-2 pt-2">
-              <span className="text-emerald-400 font-bold">visitor@alex:~$</span>
+              <span className="text-emerald-400 font-bold">dangkhoa@aquatech:~$</span>
               <input
                 type="text"
                 value={inputVal}

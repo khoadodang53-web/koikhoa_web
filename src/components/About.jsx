@@ -21,10 +21,10 @@ export default function About() {
   };
 
   const quickFacts = [
-    { label: 'Học vấn', value: 'Thủ khoa KH&KT Máy tính - ĐH Bách Khoa TP.HCM', icon: Award },
-    { label: 'Ngôn ngữ', value: 'Tiếng Việt (Bản xứ), Tiếng Anh (C1 Advanced)', icon: Globe2 },
-    { label: 'Phương châm', value: 'Nói ít, làm chuẩn, ship sản phẩm vượt kỳ vọng', icon: BookOpen },
-    { label: 'Sở thích', value: 'Mã nguồn mở, Cờ vua, Chạy bộ bán Marathon, Cà phê pha thủ công', icon: Coffee },
+    { label: 'Học vấn', value: 'Sinh viên Nuôi trồng Thủy sản - CĐ Kinh tế - Kỹ thuật Cần Thơ', icon: Award },
+    { label: 'Quê quán', value: 'Huyện Đầm Dơi, Tỉnh Cà Mau (Vùng nuôi tôm trọng điểm)', icon: Globe2 },
+    { label: 'Phương châm', value: 'Bám sát vuông tôm, vững vàng kỹ thuật, ứng dụng số hóa', icon: BookOpen },
+    { label: 'Sở thích', value: 'Lội vuông bắt tôm, nghiên cứu vi sinh, lập trình IoT & thưởng thức đờn ca tài tử', icon: Coffee },
   ];
 
   return (
@@ -37,10 +37,10 @@ export default function About() {
             Giới thiệu & Triết lý
           </div>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 dark:text-white tracking-tight">
-            Người đứng sau những dòng lệnh và hệ thống
+            Chàng sinh viên Cà Mau và khát vọng Thủy sản Xanh
           </h2>
           <p className="text-base sm:text-lg text-slate-600 dark:text-slate-400">
-            Tôi kết hợp tư duy logic của một kỹ sư hệ thống với sự tinh tế của một nhà thiết kế sản phẩm số để tạo nên những trải nghiệm phần mềm khác biệt.
+            Tôi kết hợp kinh nghiệm thực tế tại vuông tôm quê hương Đất Mũi với kiến thức đào tạo bài bản tại Cần Thơ và công nghệ số hóa.
           </p>
         </div>
 
@@ -50,19 +50,19 @@ export default function About() {
           {/* Left Narrative Story */}
           <div className="lg:col-span-7 space-y-6 text-slate-600 dark:text-slate-300 leading-relaxed text-base">
             <h3 className="text-2xl font-bold text-slate-900 dark:text-white flex items-center gap-2">
-              <span>Hành trình đam mê công nghệ</span>
+              <span>Hành trình từ vuông tôm Đất Mũi đến giảng đường Cần Thơ</span>
             </h3>
             
             <p>
-              Bắt đầu hành trình từ những năm tháng theo học chuyên ngành Khoa học Máy tính tại <strong>Đại học Bách Khoa TP.HCM</strong>, tôi luôn bị cuốn hút bởi cách một đoạn mã nhỏ có thể tác động trực tiếp và giải quyết bài toán của hàng triệu con người.
+              Sinh ra và lớn lên giữa những vuông tôm và cánh rừng ngập mặn tại huyện <strong>Đầm Dơi, Cà Mau</strong>, tôi thấu hiểu sâu sắc những giọt mồ hôi và nỗi lo lắng của bà con nông dân mỗi khi thời tiết giao mùa hay dịch bệnh ao nuôi bất ngờ bùng phát.
             </p>
 
             <p>
-              Trải qua hơn 8 năm làm việc trong môi trường công nghệ cao—từ các startup kỳ lân đến các tập đoàn công nghệ đa quốc gia—tôi đã đảm nhận vai trò từ Software Engineer, Tech Lead đến Solution Architect. Tôi không chỉ xây dựng các giao diện web mượt mà bằng <strong>React và TypeScript</strong>, mà còn trực tiếp thiết kế hạ tầng backend phân tán, hệ thống message queue và tối ưu hóa cơ sở dữ liệu chịu tải hàng chục nghìn truy vấn đồng thời.
+              Chọn theo học ngành <strong>Nuôi trồng Thủy sản tại Trường Cao đẳng Kinh tế - Kỹ thuật Cần Thơ (CTC)</strong>, tôi luôn nỗ lực gắn liền bài giảng trên lớp với thực tế đồng ruộng. Tại đây, tôi được đào tạo chuyên sâu về quản lý chất lượng nước ao nuôi, kỹ thuật ương dưỡng giống, dinh dưỡng thủy sản và chẩn đoán bệnh học bằng các thiết bị phòng thí nghiệm hiện đại.
             </p>
 
             <p>
-              Hiện tại, tâm điểm nghiên cứu và ứng dụng của tôi là sự giao thoa giữa <strong>Generative AI (LLMs, Multi-Agent Systems)</strong> và các sản phẩm Web thế hệ mới. Tôi tin rằng AI không thay thế lập trình viên, mà sẽ trao siêu năng lực cho những ai biết kết hợp kiến trúc hệ thống chuẩn mực với trí tuệ nhân tạo.
+              Không chỉ dừng lại ở các kỹ thuật nuôi truyền thống, tôi đặc biệt đam mê ứng dụng <strong>công nghệ cảm biến IoT và chuyển đổi số</strong> vào việc quản lý vuông tôm. Với tôi, người kỹ thuật viên thủy sản hiện đại không chỉ cần vững tay nghề kiểm tra bùn đáy, mà còn cần biết tận dụng công nghệ số để giúp bà con giảm chi phí, kiểm soát rủi ro và phát triển bền vững.
             </p>
 
             <div className="pt-2 flex flex-col sm:flex-row gap-4">
@@ -70,19 +70,19 @@ export default function About() {
                 <span className="w-5 h-5 rounded-full bg-emerald-500/20 text-emerald-600 dark:text-emerald-400 flex items-center justify-center text-xs">
                   <Check size={12} />
                 </span>
-                <span>Tư duy kiến trúc mở rộng (Scalable)</span>
+                <span>Vững kỹ thuật nước &amp; vi sinh</span>
               </div>
               <div className="flex items-center gap-2 text-sm font-semibold text-slate-800 dark:text-slate-200">
                 <span className="w-5 h-5 rounded-full bg-emerald-500/20 text-emerald-600 dark:text-emerald-400 flex items-center justify-center text-xs">
                   <Check size={12} />
                 </span>
-                <span>Tối ưu UX & Core Web Vitals</span>
+                <span>Ứng dụng IoT &amp; Sổ tay số</span>
               </div>
               <div className="flex items-center gap-2 text-sm font-semibold text-slate-800 dark:text-slate-200">
                 <span className="w-5 h-5 rounded-full bg-emerald-500/20 text-emerald-600 dark:text-emerald-400 flex items-center justify-center text-xs">
                   <Check size={12} />
                 </span>
-                <span>Bảo mật dữ liệu nhiều lớp</span>
+                <span>Tâm huyết với nông nghiệp miền Tây</span>
               </div>
             </div>
           </div>
@@ -121,10 +121,10 @@ export default function About() {
                 // Châm ngôn làm việc
               </div>
               <blockquote className="text-base font-medium italic">
-                "Một sản phẩm phần mềm vĩ đại không phải là khi không còn gì để thêm vào, mà là khi không còn chi tiết thừa nào để bớt đi."
+                "Con tôm khỏe mạnh không chỉ nhờ thức ăn ngon, mà nhờ làn nước trong lành và sự tận tâm bám vuông của người nuôi mỗi ngày."
               </blockquote>
               <div className="text-xs text-blue-100 font-semibold pt-1">
-                — Alex Minh Khang
+                — Đỗ Đăng Khoa
               </div>
             </div>
           </div>
